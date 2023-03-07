@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5% 0px;
 }
 
 .menuText{
@@ -26,8 +27,40 @@
     max-width: 300px;
     width: 30vw;
     border-radius: 50%;
-    margin-bottom: 2%;
 }
 .icon-seta{
     width: 13px;
+}
+
+@media (max-width: 1150px){
+    .menuText-1{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .menuText{
+        font-size: 1.2rem;
+    }
+    .icon-seta{
+        width:10px;
+    }
+}
+
+@media (max-width: 650px){
+
+    .menuText{
+        font-size: 0.8rem;
+    }
+        .menuText-1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .icon-seta{
+        width:8px;
+    }
+    .menuFoto{
+        padding-bottom: 15px;
+    }
+    .menu{
+        flex-wrap:wrap-reverse;
+    }
 }

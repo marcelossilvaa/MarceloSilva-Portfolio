@@ -1,3 +1,6 @@
+.projetos{
+    background-color: var(--cor-primaria);
+}
 .projetosCont{
     padding-top: 2%;
     display: flex;
@@ -11,7 +14,7 @@
 }
 
 
-.projeto-1{
+.projeto-container-r, .projeto-container-l{
     display: flex;
     align-items: center;
     padding: 3% 0px;
@@ -22,20 +25,19 @@
     flex-direction: column;
     align-items: end;
 }
-.projeto-2{
-    display: flex;
-    align-items: center;
-    padding: 3% 0px;
-}
 .projeto-2-desc{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 
 .titulo-projetos{
     padding-bottom: 5px;
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .btn-projetos{
@@ -47,7 +49,7 @@
     color: var(--cor-azul);
     border: solid 1px var(--cor-azul);
     width: 100px;
-    padding: 6px;
+    padding: 6px 2px;
     cursor: pointer;
 }
 .btn-repositorio-link :hover{
@@ -66,4 +68,38 @@
 .btn-demo-link :hover{
     background-color: #D4E4FA;
     color: var(--cor-azul);
+}
+
+@media (max-width: 800px){
+    .btn-demo, .btn-repositorio{
+        font-size: 0.8rem;
+        width: 80px;
+    }
+}
+
+@media (max-width: 650px){
+    .projetos-img{
+        width: 80%;
+    }
+
+    .projeto-container-r, .projeto-container-l{
+        justify-content: center;
+    }
+    .projeto-container-l{
+        flex-direction: column;
+    }
+    .projeto-container-r{
+        flex-direction: column-reverse;
+    }
+    .projeto-1-desc, .projeto-2-desc{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo-projetos{
+        padding-top: 10px;
+        width: 100%;
+        font-size: 1rem;
+    }
 }

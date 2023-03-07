@@ -1,8 +1,7 @@
 footer{
     font-family: 'Dancing Script', cursive;
     font-family: 'Poppins', sans-serif;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 32%, rgba(42,122,228,1) 100%);
+    background: var(--cor-secundaria)
 }
 .footer{
     display: flex;
@@ -11,6 +10,7 @@ footer{
     flex-direction: column;
     height: 40vh;
     padding: 40px 0px;
+    text-align: center;
 }
 .copy{
     padding-top: 10vh;

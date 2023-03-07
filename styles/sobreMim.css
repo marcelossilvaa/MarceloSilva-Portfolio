@@ -8,10 +8,32 @@
     padding: 3% 0px;
 }
 .sobreMim-text{
+    font-size: 1rem;
     text-align: justify;
     width: 60%;
 }
 .assinatura{
     font-family: 'Dancing Script', cursive;
     font-size: 1.8rem;
+}
+
+
+
+
+@media (max-width: 1150px){
+    .sobreMim-text{
+        text-align: justify;
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px){
+    .sobreMim-text{
+        text-align: justify;
+        width: 100%;
+    }
+    .sobreMim-text{
+        font-size: 0.9rem;
+    }
+
 }

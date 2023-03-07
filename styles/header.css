@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .barraNav-links{
     display: flex;
@@ -20,4 +21,18 @@ header{
 }
 #barraNav-negrito{
     font-weight: bold;
+}
+
+@media (max-width: 1150px){
+    .barraNav{
+        height: 8vh;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .barra-link{
+        display: none;
+    }
+
 }

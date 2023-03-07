@@ -27,11 +27,11 @@
                 Marcelo Santana Silva
             </p>
             <ul class="barraNav-links">
-                <li><a href="#sobreMim">Sobre mim </a></li>
-                <li><a href="#skills">Skills</a> </li>
-                <li><a href="#hobbies">Hobbies</a> </li>
-                <li><a href="#formacao">Formação</a> </li>
-                <li><a href="#projetos">Projetos</a></li>
+                <li class="barra-link"><a href="#sobreMim">Sobre mim </a></li>
+                <li class="barra-link"><a href="#skills">Skills</a> </li>
+                <li class="barra-link"><a href="#hobbies">Hobbies</a> </li>
+                <li class="barra-link"><a href="#formacao">Formação</a> </li>
+                <li class="barra-link"><a href="#projetos">Projetos</a></li>
                 <li id="barraNav-negrito"><a href="#contato">marcelo_810@hotmail.com</a></li>
             </ul>
         </nav>
@@ -206,12 +206,12 @@
             </div>
         </div>
 
-        <!-- Experiência profissional --------------------------- -->
+        <!-- Projetos  --------------------------- -->
         <div class="projetos" id="projetos">
             <div class="container">
                 <div class="projetosCont">
-                    <h3 class="titulo-topicos">Experiência profissional</h3>
-                    <div class="projeto-1">
+                    <h3 class="titulo-topicos">Projetos</h3>
+                    <div class="projeto-container-l">
                         <img src="galeria/projetos/box33.PNG" alt="" class="projetos-img">
                         <div class="projeto-1-desc">
                             <h3 class="titulo-projetos">Box33 Enigmas</h3>
@@ -227,7 +227,7 @@
                         </div>
                     </div>
 
-                    <div class="projeto-2" >
+                    <div class="projeto-container-r" >
                         <div class="projeto-2-desc">
                             <h3 class="titulo-projetos">Decodificador de texto</h3>
                             <p>Challenge Alura</p>
@@ -253,7 +253,10 @@
             <div class="footer">
                 <h3 class="titulo-topicos">Contato</h3>
                 <p class="contato-text">Entre em contato, estou sempre disponível.</p>
-                <button type="submit" id="btnForm">Enviar Mensagem</button>
+                <a href="https://www.instagram.com/marcelossilva1/" target="_blank">Instagram: @marcelossilva1</a>
+                <a href="https://wa.me/5577991219434" target="_blank">WhatsApp:(77)991219434</a>     
+                <a href="">marcelo_810@hotmail.com</a>
+
                 <p class="copy">Desenvolvido por Marcelo S Silva</p>
                 <p >© Copyright 2023</p>
             </div>
@@ -270,6 +273,12 @@
             s1.setAttribute('crossorigin','*');
             s0.parentNode.insertBefore(s1,s0);
         })();
+
+        $("#button").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#projetos").offset().top
+        }, 2000);
+        });
     </script>
     <!--End of Tawk.to Script-->
 </body>

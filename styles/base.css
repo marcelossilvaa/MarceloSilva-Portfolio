@@ -21,3 +21,9 @@
     font-weight: bold;
     color: var(--cor-text);
 }
+
+@media (max-width: 1150px){
+    .container{
+        width: 95%;
+    }
+}

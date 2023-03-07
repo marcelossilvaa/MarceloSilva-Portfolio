@@ -18,6 +18,9 @@
 }
 .formacao-cards-cont{
     font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 24%;
 }
 .formacao-cards-img{
@@ -25,11 +28,10 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 100%;
     border-radius: 10px;
-    flex-wrap: wrap;
     margin: 12px 0px;
     height: 25vh;
+
 }
 .formacao-imagens{
     width: 150px;
@@ -44,4 +46,33 @@
 .formacao-descricao-cards{
     font-size: 0.9rem;
     padding: 0.5% 2px;
+}
+
+@media (max-width: 1150px){
+    .formacao-imagens{
+        width: 150px;
+    }
+    .formacao-cards{
+        justify-content: space-around;
+    }
+    .formacao-cards-cont{
+        width: 40%;
+        
+    }
+    .formacao-cards-img{
+        height: 15vh;
+    }
+}
+
+@media (max-width: 650px){
+    .formacao-imagens{
+        width: 100px;
+    }
+    .formacao-cards-cont{
+        width: 70%;
+        
+    }
+    .formacao-cards-img{
+        height: 10vh;
+    }
 }

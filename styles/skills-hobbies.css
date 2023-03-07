@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    gap: 2%;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -36,3 +36,21 @@
     padding: 5% 0px;
     width: 28px;
 }
+
+
+@media (max-width: 1150px){
+    .skills-cards{
+        justify-content: space-around;
+    }
+    .skills-cards-cont{
+        
+        width: 30%;
+        height: 100px;
+    }
+}
+@media (max-width: 1150px){
+    .skills-cards-cont{
+        width: 25%;
+        height: 100px;
+    }
+} 
