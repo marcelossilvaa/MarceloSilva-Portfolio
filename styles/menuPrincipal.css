@@ -1,0 +1,33 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuText{
+    display: flex;
+    color: var(--cor-text);
+    margin-bottom: 10 rem;
+    font-size: 1.1rem;
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.menuText-1{
+    font-size: 3.0rem;
+    font-weight: bold;
+}
+.menuLinks{
+    display: flex;
+    gap: 3%;
+}
+.menuFoto{
+    display: flex;
+    max-width: 300px;
+    width: 30vw;
+    border-radius: 50%;
+    margin-bottom: 2%;
+}
+.icon-seta{
+    width: 13px;
+}

@@ -1,0 +1,17 @@
+.sobreMim{
+    background-color: var(--cor-secundaria);
+}
+.sobreMim-layout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3% 0px;
+}
+.sobreMim-text{
+    text-align: justify;
+    width: 60%;
+}
+.assinatura{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}

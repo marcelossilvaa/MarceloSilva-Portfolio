@@ -76,3 +76,8 @@ textarea {
 	font-weight: inherit;
 	font-family: inherit;
 }
+
+*{
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}

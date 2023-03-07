@@ -1,0 +1,23 @@
+header{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--cor-text);
+}
+.barraNav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.barraNav-links{
+    display: flex;
+    gap: 10px;
+}
+.barraNav-nome{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#barraNav-negrito{
+    font-weight: bold;
+}

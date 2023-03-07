@@ -1,0 +1,47 @@
+.formacao{
+    background-color: var(--cor-secundaria);
+}
+.formacao-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2% 0px;
+}
+.formacao-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.formacao-cards-cont{
+    font-size: 0.9rem;
+    width: 24%;
+}
+.formacao-cards-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 12px 0px;
+    height: 25vh;
+}
+.formacao-imagens{
+    width: 150px;
+}
+
+.formacao-curso{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5% 1px;
+}
+
+.formacao-descricao-cards{
+    font-size: 0.9rem;
+    padding: 0.5% 2px;
+}

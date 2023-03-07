@@ -6,125 +6,249 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/_reset.css">
     <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/menuPrincipal.css">
+    <link rel="stylesheet" href="./styles/sobreMim.css">
+    <link rel="stylesheet" href="./styles/skills-hobbies.css">
+    <link rel="stylesheet" href="./styles/formacao.css">
+    <link rel="stylesheet" href="./styles/projetos.css">
     <title>Marcelo - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <p>Marcelo Santana Silva</p>
-            <ul>
-                <li>Sobre mim</li>
-                <li>Skills</li>
-                <li>Hobbies</li>
-                <li>Formação</li>
-                <li>Projetos</li>
-                <li><strong>marcelo_810@hotmail.com</strong></li>
+    <header class="container">
+        <nav class="barraNav">
+            <p class="barraNav-nome" id="barraNav-negrito">
+                <img src="galeria/icones/computador.png" class="icons" alt="">
+                Marcelo Santana Silva
+            </p>
+            <ul class="barraNav-links">
+                <li><a href="#sobreMim">Sobre mim </a></li>
+                <li><a href="#skills">Skills</a> </li>
+                <li><a href="#hobbies">Hobbies</a> </li>
+                <li><a href="#formacao">Formação</a> </li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li id="barraNav-negrito"><a href="#contato">marcelo_810@hotmail.com</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        //Menu Principal ---------------------------
-        <div>
-            <div>
-                <p>Olá, me chamo Marcelo e sou Desenvolvedor Web</p>
-                <img src="" alt="">
+        <!-- Menu Principal --------------------------- --> 
+        <div class="container">
+            <div class="menu">
+                <div class="menuText">
+                    <p class="menuText-1">Olá, me chamo Marcelo e sou Desenvolvedor Web</p>
+                    <br>
+                    <p class="menuText-2">Graduando em Ciência da Computação e estou me especializando como desenvolvedor Front-End.</p>   
+                    <br>
+                    <ul class="menuLinks">
+                        <li class="menuLinks-btn">
+                            <a href="https://github.com/marcelossilvaa">
+                            GitHub
+                            <img src="galeria/icones/seta.png" class="icon-seta" alt=""></a>
+                        </li>
+                        <li class="menuLinks-btn">
+                            <a href="https://www.linkedin.com/in/marcelossilva1/">
+                            Linkedin
+                            <img src="galeria/icones/seta.png" class="icon-seta" alt=""></a>
+                        </li>
+                        <li class="menuLinks-btn">
+                            <a href="https://www.instagram.com/marcelossilva1/">
+                            Instagram
+                            <img src="galeria/icones/seta.png" class="icon-seta" alt=""></a>
+                        </li>
+                        <li class="menuLinks-btn">
+                            <a href="https://drive.google.com/drive/folders/1ALrPuM_eH1-gyth63X7OcetRmCWdrWlY?usp=share_link">
+                            Currículo
+                            <img src="galeria/icones/seta.png" class="icon-seta" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="./galeria/Marcelo_PNG.jpg" class="menuFoto" alt="foto perfil Marcelo" class="menuFoto">
             </div>
-            <div>
-                Sou graduando em Ciência da Computação e estou me especializando como desenvolvedor Front-End.
-            </div>
-            <div>
-                <ul>
-                    <li>GitHub</li>
-                    <li>Linkedin</li>
-                    <li>instagram</li>
-                    <li>Currículo</li>
-                </ul>
-            </div>
         </div>
 
-        //Sobre mim -----------------------------------
-        <div>
-            <h3>Sobre mim</h3>
-            <p></p>
-            <p></p>
-        </div>
-
-        //Skills ----------------------------------------
-        <div>
-            <h3>Skills</h3>
-            <ul>
-                <li>Html 5</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Bootstrap</li>
-                <li>React</li>
-                <li>Git/GitHub</li>
-            </ul>
-        </div>
-
-        //Hobbies -----------------------------------------
-        <div>
-            <ul>
-                <li>Ouvir músicas</li>
-                <li>Jogar jogos eletrônicos</li>
-                <li>Assistir filmes</li>
-                <li>Tirar fotos</li>
-                <li>Cozinhar</li>
-                <li>Fazer trilhas</li>
-            </ul>
-        </div>
-
-        //Formação acadêmica -------------------------------
-        <div>
-            <ul>
-                <li>
-                    <div><img src="" alt=""></div>
-                    <p>Engenharia de Petróleo</p>
-                    <p>2019-incompleto | UFS</p>
-                </li>
-                <li>
-                    <div><img src="" alt=""></div>
-                    <p>Ciência da Computação</p>
-                    <p>2022 - em andamento | Descomplica</p>
-                </li>
-                <li>
-                    <div><img src="" alt=""></div>
-                    <p>Formação Dev Front-End</p>
-                    <p>2023 - em andamento | Alura</p>
-                </li>
-            </ul>
-        </div>
-
-        //Experiência profissional ------------------------
-        <div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <h5>Box33 Enigmas</h5>
-                    <p>Site de enigmas</p>
-                    <p>
-                        <a href=""><button>Repositório</button></a>
-                        <a href=""><button>Ver demo</button></a>
-                    </p>
+        <!-- //Sobre mim --------------------------- -->
+        <div class="sobreMim" id="sobreMim">
+            <div class="container">
+                <div class="sobreMim-layout">
+                    <div class="sobreMim-text">
+                        <h3 class="titulo-topicos">Sobre mim</h3>
+                        <br>
+                        <p>Sou uma pessoa calma, arrojada e comunicativa. A todo tempo  buscando o bem comum e uma boa convivência. Sempre apto a ouvir e me desenvolver. </p>
+                        <br>
+                        <p>Ex graduando em Engenharia de Petróleo pela UFS, migrei para área de TI  em 2021 , hoje sou graduando em Ciência da Computação, venho me especializando em desenvolvimento web Front-End.</p>
+                        <br>
+                        <p class="assinatura">Marcelo Santana Silva</p>
+                    </div>
                 </div>
             </div>
+        </div>
+        
 
-            <div>
-                <div>
-                    <h5>Decodificador de texto</h5>
-                    <p>Challenge Alura</p>
-                    <p>
-                        <a href=""><button>Repositório</button></a>
-                        <a href=""><button>Ver demo</button></a>
-                    </p>
+        <!-- Skills e Hobbies --------------------------- -->
+        <div id="skills" class="skills">
+            <div class="container">
+                <div class="skills-cont">
+                    <h3 class="titulo-topicos">Skills</h3>
+                    <br>
+                    <ul class="skills-cards">
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/html-5.png" alt="" class="icons">
+                            Html 5
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/css-3.png" alt="" class="icons">
+                            CSS
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/js.png" alt="" class="icons">
+                            JavaScript
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/bootstrap.png" alt="" class="icons">
+                            Bootstrap
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/react.png" alt="" class="icons">
+                            React
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/git.png" alt="" class="icons">
+                            Git | GitHub
+                        </li>
+                    </ul>
                 </div>
-                <img src="" alt="">
             </div>
         </div>
 
-        // Contato ---------------------------------------
-        <div>
-            <h5>Contato</h5>
+
+        <div id="skills" class="skills">
+            <div class="container">
+                <div class="skills-cont">
+                    <h3 class="titulo-topicos">Hobbies</h3>
+                    <br>
+                    <ul class="skills-cards">
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/musica.png" alt="" class="icons">
+                            Ouvir músicas
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/jogar.png" alt="" class="icons">
+                            Jogos eletrônicos
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/assistir.png" alt="" class="icons">
+                            Assistir filmes
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/cozinhar.png" alt="" class="icons">
+                            Cozinhar
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/viajar.png" alt="" class="icons">
+                            Viajar
+                        </li>
+                        <li class="skills-cards-cont">
+                            <img src="./galeria/icones/trilha.png" alt="" class="icons">
+                            Fazer trilhas
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Formação Acadêmica --------------------------- -->
+        <div id="formacao" class="formacao">
+            <div class="container">
+                <div class="formacao-cont">
+                    <h3 class="titulo-topicos">Formação Acadêmica</h3>
+                    <ul class="formacao-cards">
+                        <li class="formacao-cards-cont">
+                            <div class="formacao-cards-img"><img src="galeria/formacao/ufs.png" alt="" class="formacao-imagens"></div>
+                            <div>
+                                <p class="formacao-curso">Engenharia de Petróleo</p>
+                                <p class="formacao-descricao-cards">2019 a 2022 - incompleto</p>
+                                <p class="formacao-descricao-cards">UFS</p>
+                            </div>
+                        </li>
+                        <li class="formacao-cards-cont">
+                            <div class="formacao-cards-img"><img src="galeria/formacao/descomplica.png" alt="" class="formacao-imagens"></div>
+                            <div>
+                                <p class="formacao-curso">Ciência da Computação</p>
+                                <p class="formacao-descricao-cards">2022 - em andamento</p>
+                                <p class="formacao-descricao-cards">Descomplica</p>
+                            </div>
+                        </li>
+                        <li class="formacao-cards-cont">                        
+                            <div class="formacao-cards-img"><img src="galeria/formacao/alura.png" alt="" class="formacao-imagens"></div>
+                            <div>
+                                <p class="formacao-curso">Formação Front-End</p>
+                                <p class="formacao-descricao-cards">2023 - em andamento</p>
+                                <p class="formacao-descricao-cards">Alura</p>
+                            </div>
+                        </li>
+                        <li class="formacao-cards-cont">
+                            <div class="formacao-cards-img"><img src="galeria/formacao/xpe.png" alt="" class="formacao-imagens"></div>
+                            <div>
+                                <p class="formacao-curso">Bootcamp React</p>
+                                <p class="formacao-descricao-cards">2023 - em andamento</p>
+                                <p class="formacao-descricao-cards">XPe</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experiência profissional --------------------------- -->
+        <div class="projetos" id="projetos">
+            <div class="container">
+                <div class="projetosCont">
+                    <h3 class="titulo-topicos">Experiência profissional</h3>
+                    <div class="projeto-1">
+                        <img src="galeria/projetos/box33.PNG" alt="" class="projetos-img">
+                        <div class="projeto-1-desc">
+                            <h3 class="titulo-projetos">Box33 Enigmas</h3>
+                            <p>Site de enigmas</p>
+                            <p class="btn-projetos">
+                                <a href="https://github.com/marcelossilvaa/Box33-Enigmas" class="btn-repositorio-link" target="_blank">
+                                    <button class="btn-repositorio">Repositório</button>
+                                </a>
+                                <a href="https://marcelossilvaa.github.io/Box33-Enigmas/" class="btn-demo-link" target="_blank">
+                                    <button class="btn-demo">Ver demo</button>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="projeto-2" >
+                        <div class="projeto-2-desc">
+                            <h3 class="titulo-projetos">Decodificador de texto</h3>
+                            <p>Challenge Alura</p>
+                            <p class="btn-projetos">
+                                <a href="https://github.com/marcelossilvaa/decodificador_alura" class="btn-repositorio-link" target="_blank">
+                                    <button class="btn-repositorio">Repositório</button>
+                                </a>
+                                <a href="https://marcelossilvaa.github.io/decodificador_alura/" class=" btn-demo-link" target="_blank">
+                                    <button class="btn-demo">Ver demo</button>
+                                </a>
+                            </p>
+                        </div>
+                        <img src="galeria/projetos/decodificador.PNG" alt="" class="projetos-img">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Contato --------------------------- -->
+        <div id="contato">
+            <h3 class="titulo-topicos">Contato</h3>
             <p>Entre em contato, estou sempre disponível.</> </p>
             <form>
                 <input type="nome" name="nome" id="nomeForm">
