@@ -81,3 +81,8 @@ textarea {
 	font-family: 'Poppins', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
+
+html, body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}

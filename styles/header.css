@@ -34,5 +34,12 @@ header{
     .barra-link{
         display: none;
     }
-
+    #barraNav-negrito{
+        font-size: 0.9rem;
+    }
+    .barraNav-nome{
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 }

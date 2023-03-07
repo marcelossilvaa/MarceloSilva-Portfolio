@@ -29,11 +29,14 @@
 
 @media (max-width: 650px){
     .sobreMim-text{
-        text-align: justify;
         width: 100%;
+        font-size: 0.6rem;
     }
     .sobreMim-text{
         font-size: 0.9rem;
+    }
+    .assinatura{
+        font-size: 1.4rem;
     }
 
 }
